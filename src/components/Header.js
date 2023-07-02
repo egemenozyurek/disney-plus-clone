@@ -31,7 +31,7 @@ function Header() {
           <span>SERIES</span>
         </a>
       </NavMenu>
-      <UserImg src="https://yt3.ggpht.com/yti/AHyvSCCcYf9vdew8hl8L4sQdWq4dY7o3bbPhri7hKUlt8w=s108-c-k-c0x00ffffff-no-rj" />
+      <UserImg src="https://lh3.googleusercontent.com/ogw/AGvuzYYyGaAknYkgYSYKYHcIOrd8pTs7PtRtlDIYVfL8ug=s32-c-mo" />
     </Nav>
   );
 }
@@ -44,6 +44,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
